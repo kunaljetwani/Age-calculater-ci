@@ -20,6 +20,7 @@ font-weight: 400;
 text-align: center;
 text-transform: capitalize;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: #233067;
 }
 .main
 {
@@ -46,6 +47,7 @@ height: 43px;
 border: none;
 margin-top: 40px;
 box-shadow: 2px 2px 4px (0, 0, 0, 0.25);
+border:1px solid black;
 }
  
  .submit
@@ -60,7 +62,7 @@ letter-spacing: 0.09em;
 margin-top: 90px;
 margin-left: 650px;
 width: 200px;
-background: rgba(60, 160, 255, 0.84);
+background:chartreuse;
 }
 
 .result{
