@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modue 12 </title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <section class="main-section">
+        <div class="heading">
+            <p>Age Calculator</p>
+        </div>
+        <form>
+            <div class="main">
+                    <div class="label-inputs">
+                        <label for="Date" class="labels">Date(DD)</label>
+                        <input class="inputs" type="text" id="date">
+                    </div>
+
+                    <div class="label-inputs">
+                        <label for="Month" class="labels">Month(MM)</label>
+                        <input class="inputs" type="text" id="month">
+                    </div>
+
+                    <div class="label-inputs">
+                        <label for="Year" class="labels">Year(YYYY)</label>
+                        <input class="inputs" type="text" id="year">
+                    </div>
+
+            </div>
+
+        </form>
+        <div>
+            <button class="submit" onclick="calculatedAge()"> submit</button>
+        </div>
+        <div class="result" id="mesg"></div>
+
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
